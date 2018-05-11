@@ -1,17 +1,16 @@
 """
-WSGI config for sqldjango project.
+Configuração WSGI para o projeto sqldjango.
 
-This module contains the WSGI application used by Django's development server
-and any production WSGI deployments. It should expose a module-level variable
-named ``application``. Django's ``runserver`` and ``runfcgi`` commands discover
-this application via the ``WSGI_APPLICATION`` setting.
+Este módulo contém o aplicativo WSGI usado pelo servidor de desenvolvimento do Django
+e quaisquer implementações de produção WSGI. Deve expor uma variável de nível de módulo
+chamado `` application``. Os comandos `` runserver`` e `` runfcgi` do Django descobrem
+esta aplicação através da configuração `` WSGI_APPLICATION``.
 
-Usually you will have the standard Django WSGI application here, but it also
-might make sense to replace the whole Django WSGI application with a custom one
-that later delegates to the Django one. For example, you could introduce WSGI
-middleware here, or combine a Django application with an application of another
-framework.
-
+Normalmente você terá o aplicativo Django WSGI padrão aqui, mas também
+pode fazer sentido substituir todo o aplicativo Django WSGI por um personalizado
+no Django. Por exemplo, você poderia introduzir o WSGI
+middleware aqui, ou combinar um aplicativo Django com um aplicativo de outro
+estrutura.
 """
 import os
 

@@ -6,12 +6,12 @@ from django.contrib import admin
 from app.models import Choice, Poll
 
 class ChoiceInline(admin.TabularInline):
-    """Choice objects can be edited inline in the Poll editor."""
+    """Objetos Choice podem ser editados em linha no editor Poll"""
     model = Choice
     extra = 3
 
 class PollAdmin(admin.ModelAdmin):
-    """Definition of the Poll editor."""
+    """Objetos Choice podem ser editados em linha no editor Poll"""
     fieldsets = [
         (None, {'fields': ['text']}),
         ('Date information', {'fields': ['pub_date']}),

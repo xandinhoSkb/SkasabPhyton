@@ -36,7 +36,7 @@ urlpatterns = [
         },
         name='logout'),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
+    # descomente o admin/doc linha abaixo para ativar a documentação administrativa.
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
